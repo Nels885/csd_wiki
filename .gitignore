@@ -1,0 +1,10 @@
+.idea/
+.coverage
+.env
+htmlcov/
+__pycache__
+*.sqlite3
+csd_wiki/staticfiles/
+geckodriver.log
+media/
+Pipfile.lock
