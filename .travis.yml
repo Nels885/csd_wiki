@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.6"
+  - "3.8"
+
+# Command to install dependencies
+
+install:
+  - pip install pipenv
+  - pipenv install --dev
+
+script:
+  - python manage.py collectstatic --no-input -l
+  - coverage run --source="." manage.py test -v 2
+  - coverage report
+  - flake8
