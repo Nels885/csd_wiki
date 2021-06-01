@@ -1,6 +1,6 @@
 # CSD Wiki
 
-[![Build Status](https://travis-ci.org/Nels885/csd_wiki.svg?branch=master)](https://travis-ci.org/Nels885/csd_wiki)
+[![Build Status](https://www.travis-ci.com/Nels885/csd_wiki.svg?branch=master)](https://www.travis-ci.com/Nels885/csd_wiki)
 
 Wiki create with Django 3.2.x for the CSD service of the company Faurecia Clarion Electronics.
 
