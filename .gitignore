@@ -4,6 +4,7 @@
 htmlcov/
 __pycache__
 *.sqlite3
+csd_wiki/settings/production.py
 csd_wiki/staticfiles/
 geckodriver.log
 media/
