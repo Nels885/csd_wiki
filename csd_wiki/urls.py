@@ -20,15 +20,15 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('notifications/', include('django_nyt.urls')),
-    path('', include('wiki.urls'))
+    path('wiki/admin/', admin.site.urls),
+    path('wiki/notifications/', include('django_nyt.urls')),
+    path('wiki/', include('wiki.urls'))
 ]
 
 if settings.DEBUG:
     import debug_toolbar
     urlpatterns = [
-        path('__debug__/', include(debug_toolbar.urls)),
+        path('wiki/__debug__/', include(debug_toolbar.urls)),
 
         # For django versions before 2.0:
         # url(r'^__debug__/', include(debug_toolbar.urls)),
